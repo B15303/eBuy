@@ -19,7 +19,7 @@ public class LoginServlet extends HttpServlet {
         String pwd = req.getParameter("password");
         //匹配帐号密码，匹配成功则跳转至登陆成功页面
         if (null != userName && null != pwd){
-            String userName = req.getParameter("userName");
+
         }
 
 
