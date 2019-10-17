@@ -6,6 +6,7 @@ import org.apache.commons.dbutils.QueryRunner;
 import net.togogo.bean.easybuy_user;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -26,7 +27,7 @@ public class LoginServlet extends HttpServlet {
 //        System.out.println(req.getParameter("userName"));
 //        System.out.println(req.getParameter("password"));
 
-        boolean flag = true;
+        String flag = "true";
 
 
         String userName = req.getParameter("userName");
@@ -39,17 +40,22 @@ public class LoginServlet extends HttpServlet {
             List<easybuy_user> object = queryRunner.query(sql,beanListHandler);
             if (null != object){
                 for (easybuy_user easybuy_user:object){
-                    if (easybuy_user.getLoginName().equals(userName)){
-                        flag = true;
+                    if (easybuy_user.getLoginName().equals(userName) && easybuy_user.getPassword().equals(pwd)){
+                        flag = "true";
                         break;
                     }else {
-                        flag = false;
+                        flag = "false";
                     }
                 }
             }
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        resp.getWriter().print(flag);
+        if (flag == "true"){
+            resp.sendRedirect("Index.html");
+        }else {
+            req.setAttribute("flag",flag);
+            req.getRequestDispatcher("Login.jsp").forward(req,resp);
+        }
     }
 }

@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" contentType="text/html;charset=UTF-8"%>
+<%@ page language="java" import="java.lang.*" contentType="text/html;charset=UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -30,35 +30,14 @@
     
 	<script type="text/javascript" src="js/lrscroll_1.js"></script>
 
-    <script>
-        $(function () {
-            $("[name='userName']").blur(function () {
-                $.ajax({
-                    url:'login',
-                    type:'post',
-                    dataType:'text',
-                    data:'userName='+this.value,
-                    success:function (datas) {
-                        //data 当相应接收到的值
-                        alert("接受到的返回值:"+datas);
-                        // alert("接受到的返回值类型:"+ typeof  datas);
+    <%
+            String flag = (String)request.getAttribute("flag");
+            //alert("hello");
+             if("false" == flag){
+    %>
+    <script> alert("用户名或密码错误！");</script>
+    <%}%>
 
-                        if (datas == 'true'){
-                            $("[name='msg']").html("✔");
-                        }
-                        if (datas == 'false') {
-                            $("[name='msg']").html("用户名不存在");
-                        }
-                    },
-                    error:function () {
-                        alert("请求失败");
-
-                    }
-                })
-            })
-        })
-    </script>
-    
 <title>尤洪</title>
 </head>
 <body>  
@@ -93,7 +72,7 @@
               </tr>
               <tr height="70">
                 <td>用户名</td>
-                <td><input type="text" name="userName" value="" class="l_user" /><label name="msg"></label></td>
+                <td><input type="text" name="userName" value="" class="l_user" /></td>
               </tr>
               <tr height="70">
                 <td>密&nbsp; &nbsp; 码</td>
