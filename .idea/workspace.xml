@@ -6,13 +6,40 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="157554ea-cc13-4975-a562-672f13eb762f" name="默认更改列表" comment="表字段声明及静态页面导入">
+    <list default="true" id="157554ea-cc13-4975-a562-672f13eb762f" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/togogo/dao/eBuyDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/togogo/dao/impl/eBuyDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/togogo/service/eBuyService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/togogo/service/impl/eBuyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/togogo/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/togogo/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Brand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/BrandList.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BrandList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/BuyCar.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BuyCar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/BuyCar_Three.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BuyCar_Three.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/BuyCar_Two.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BuyCar_Two.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Category.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/CategoryList.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/CategoryList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Address.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Cash.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Cash.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Collect.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Collect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Commission.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Commission.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Links.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Links.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Member.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Member.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Member_List.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Member_List.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Money.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Money.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Money_Charge.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Money_Charge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Money_Pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Money_Pay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Msg.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Msg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Order.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Packet.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Packet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Results.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Safe.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Safe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_User.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_User.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Product.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Regist.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Regist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Sell.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Sell.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/SellDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/SellDetails.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,64 +54,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/togogo/utils/C3p0Utils.java">
+        <entry file="file://$PROJECT_DIR$/src/net/togogo/servlet/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="-170">
+              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/togogo/servlet/LoginServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/net/togogo/bean/easybuy_user.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="-475">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/net/togogo/dao/eBuyDao.java">
+        <entry file="file://$PROJECT_DIR$/web/Login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/togogo/dao/impl/eBuyDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/togogo/service/eBuyService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/togogo/service/impl/eBuyServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1375">
-              <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+            <state relative-caret-position="251">
+              <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -107,11 +101,13 @@
       <list>
         <option value="$PROJECT_DIR$/web/Login.html" />
         <option value="$PROJECT_DIR$/src/net/togogo/dao/eBuyDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/net/togogo/dao/eBuyDao.java" />
-        <option value="$PROJECT_DIR$/src/net/togogo/dao/impl/eBuyDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/net/togogo/service/eBuyService.java" />
+        <option value="$PROJECT_DIR$/src/net/togogo/dao/eBuyDao.java" />
+        <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
+        <option value="$PROJECT_DIR$/src/net/togogo/dao/impl/eBuyDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/net/togogo/service/impl/eBuyServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/net/togogo/servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/web/Login.jsp" />
       </list>
     </option>
   </component>
@@ -122,10 +118,10 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="310" />
-    <option name="y" value="15" />
-    <option name="width" value="906" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="4" />
+    <option name="width" value="852" />
     <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -161,7 +157,21 @@
               <item name="eBuy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="togogo" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eBuy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eBuy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="togogo" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eBuy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eBuy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="togogo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eBuy" type="b2602c69:ProjectViewProjectNode" />
@@ -192,7 +202,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Project/product" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AJAX/ajax" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -314,7 +324,7 @@
       <workItem from="1571275630869" duration="2141000" />
       <workItem from="1571278261718" duration="88000" />
       <workItem from="1571278386195" duration="626000" />
-      <workItem from="1571280446345" duration="2054000" />
+      <workItem from="1571280446345" duration="9556000" />
     </task>
     <task id="LOCAL-00001" summary="表字段声明及静态页面导入">
       <created>1571209162792</created>
@@ -323,17 +333,24 @@
       <option name="project" value="LOCAL" />
       <updated>1571209162792</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="调转接口与接口实现方法位置">
+      <created>1571282693965</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571282693965</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10547000" />
+    <option name="totallyTimeSpent" value="18049000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="448" y="0" width="906" height="741" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15582451" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24349882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -343,7 +360,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49881798" weight="0.61120266" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49881798" visible="true" weight="0.19110379" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,32 +390,18 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="表字段声明及静态页面导入" />
-    <option name="LAST_COMMIT_MESSAGE" value="表字段声明及静态页面导入" />
+    <MESSAGE value="调转接口与接口实现方法位置" />
+    <option name="LAST_COMMIT_MESSAGE" value="调转接口与接口实现方法位置" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/Brand.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/num.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/togogo/utils/C3p0Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/togogo/dao/eBuyDao.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -410,38 +413,81 @@
     <entry file="file://$PROJECT_DIR$/src/net/togogo/service/e.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/togogo/dao/impl/eBuyDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/net/togogo/utils/C3p0Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/togogo/service/eBuyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/togogo/servlet/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="100">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/togogo/service/impl/eBuyServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        <state relative-caret-position="325">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/togogo/service/eBuyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="58" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/togogo/dao/eBuyDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="225">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/togogo/dao/impl/eBuyDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="64" lean-forward="true" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/togogo/bean/easybuy_user.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-475">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/togogo/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
         </state>
       </provider>
     </entry>
