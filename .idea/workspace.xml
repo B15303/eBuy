@@ -7,11 +7,461 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="157554ea-cc13-4975-a562-672f13eb762f" name="默认更改列表" comment="表字段声明及静态页面导入">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Brand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/BrandList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/BuyCar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/BuyCar_Three.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/BuyCar_Two.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/CategoryList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Member.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Member_Address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Member_Cash.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Member_Collect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Member_Commission.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Member_Links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Member_Member.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Member_Member_List.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Member_Money.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Member_Money_Charge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Member_Money_Pay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Member_Msg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Member_Order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Member_Packet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Member_Results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Member_Safe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Member_User.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Regist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Sell.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/SellDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/classes/META-INF/EasyBuy.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/classes/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/classes/net/togogo/bean/easybuy_news.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/classes/net/togogo/bean/easybuy_order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/classes/net/togogo/bean/easybuy_order_detail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/classes/net/togogo/bean/easybuy_product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/classes/net/togogo/bean/easybuy_product_category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/classes/net/togogo/bean/easybuy_user.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/classes/net/togogo/bean/easybuy_user_address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/classes/net/togogo/bean/result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/classes/net/togogo/dao/eBuyDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/classes/net/togogo/dao/impl/eBuyDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/classes/net/togogo/service/eBuyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/classes/net/togogo/service/impl/eBuyServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/classes/net/togogo/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/classes/net/togogo/servlet/RegistServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/classes/net/togogo/utils/C3p0Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/classes/net/togogo/utils/PageSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/lib/commons-dbutils-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.36.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/css/MagicZoom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/css/ShopShow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/a_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/a_link.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/add_ad.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/b4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/b_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/b_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/b_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/b_4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/b_5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/b_6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/b_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/b_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/b_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/b_sh_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/b_sh_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/baby_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/baby_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/baby_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/baby_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/baby_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/baby_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/baby_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/baby_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/baby_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/bag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/ban1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/bb_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/bk_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/bk_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/bk_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/bk_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/bk_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/box_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/brand1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/brand2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/brand3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/brand4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/brand5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/btn_jud.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/btn_log.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/btn_sure.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/buy1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/buy2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/c_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/c_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/c_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/c_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/c_t.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/c_ts.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/ca_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/ca_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/ca_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/ca_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/car1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/car2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/care.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/cars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/cars_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/ch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/d_a.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/d_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/de1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/de2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/de3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/de4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/de5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/equl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/er.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/floor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/food_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/food_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/food_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/food_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/food_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/food_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/food_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/food_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/food_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/fre_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/fre_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/fre_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/fre_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/fre_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/fre_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/fre_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/fre_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/fre_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/h_t.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/hb_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/hb_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/hb_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/hb_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/hb_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/hb_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/hb_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/hb_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/hb_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/hb_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/hb_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/hb_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/heart_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/his_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/his_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/his_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/his_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/his_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/home_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/home_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/home_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/home_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/home_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/home_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/home_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/home_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/home_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/hot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/hot1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/hot2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/hot3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/hot4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/i_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/i_down_h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/i_email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/i_mem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/i_num.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/i_pwd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/i_tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/i_u.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/i_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/i_up_h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/j_car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/jia.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/jia_b.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/jian.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/l_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/l_1_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/l_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/l_2_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/l_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/l_3_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/l_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/l_4_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/l_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/l_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/logo副本.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/m_i_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/m_i_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/m_i_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/m_i_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/m_t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/make_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/make_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/make_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/make_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/make_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/make_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/make_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/make_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/make_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/mat_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/mat_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/mat_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/mban_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/mban_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/milk_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/milk_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/milk_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/milk_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/milk_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/milk_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/milk_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/milk_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/milk_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/mores.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/n_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/n_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/n_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/n_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/n_not.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/nav1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/nav10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/nav2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/nav3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/nav4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/nav5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/nav6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/nav7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/nav8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/nav9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/nban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/p_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/pa_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/pa_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/pa_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/pa_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/pa_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/pa_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/pa_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/pa_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/paper_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/peo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/peo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/peo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/peo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/peo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/peo_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/per_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/per_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/per_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/per_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/per_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/per_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/per_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/per_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/per_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/per_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/per_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/per_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/ph_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/ph_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/ph_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/ph_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/ph_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/ph_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/pl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/pro1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/pro2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/pro3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/pro4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/pro5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/pro6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/pro7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/pro8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/ps1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/ps2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/ps3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/ps4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/r_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/r_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/s_close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/s_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/s_line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/s_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/s_tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/s_txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/sb1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/sb2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/sb3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/sbrand.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/sh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/sh1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/sh2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/sh_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/sh_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/sh_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/sh_4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/sh_5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/simg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/ss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/suc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/t1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/t2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/t3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/t4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/t_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tel_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tel_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tel_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tel_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tel_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tel_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tel_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tel_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tel_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tj_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tj_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tj_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tm1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tm2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tm3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tm_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tm_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tm_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tm_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tm_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tm_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tm_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tm_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tm_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tm_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tm_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/tm_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/images/z_buy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/MagicZoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/ShopShow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/baby_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/bban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/f_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/fban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/hban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/iban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/iepng.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/jquery-1.11.1.min_044d0927.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/jquery-1.4.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/jquery-1.8.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/jquery.bxslider_e88acd1b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/jquery.soChange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/lrscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/lrscroll_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/mban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/milk_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/n_nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/num.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/p_tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/paper_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/s_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/shade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/tban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/js/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EasyBuy/META-INF/EasyBuy.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EasyBuy/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EasyBuy/net/togogo/bean/easybuy_news.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EasyBuy/net/togogo/bean/easybuy_order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EasyBuy/net/togogo/bean/easybuy_order_detail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EasyBuy/net/togogo/bean/easybuy_product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EasyBuy/net/togogo/bean/easybuy_product_category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EasyBuy/net/togogo/bean/easybuy_user.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EasyBuy/net/togogo/bean/easybuy_user_address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EasyBuy/net/togogo/bean/result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EasyBuy/net/togogo/dao/eBuyDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EasyBuy/net/togogo/dao/impl/eBuyDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EasyBuy/net/togogo/service/eBuyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EasyBuy/net/togogo/service/impl/eBuyServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EasyBuy/net/togogo/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EasyBuy/net/togogo/servlet/RegistServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EasyBuy/net/togogo/utils/C3p0Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EasyBuy/net/togogo/utils/PageSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/togogo/servlet/RegistServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Regist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.36.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyBuy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EasyBuy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/togogo/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/togogo/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Brand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/BrandList.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BrandList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/BuyCar.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BuyCar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/BuyCar_Three.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BuyCar_Three.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/BuyCar_Two.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/BuyCar_Two.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Category.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/CategoryList.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/CategoryList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Address.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Cash.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Cash.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Collect.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Collect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Commission.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Commission.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Links.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Links.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Member.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Member.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Member_List.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Member_List.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Money.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Money.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Money_Charge.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Money_Charge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Money_Pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Money_Pay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Msg.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Msg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Order.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Packet.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Packet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Results.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_Safe.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_Safe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Member_User.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Member_User.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Product.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Regist.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EasyBuy_war_exploded/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Sell.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Sell.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/SellDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/SellDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.16.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.16.jar" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,47 +472,16 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/togogo/utils/C3p0Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/net/togogo/servlet/LoginServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1375">
-              <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/web/Login.html" />
-        <option value="$PROJECT_DIR$/src/net/togogo/servlet/LoginServlet.java" />
-      </list>
-    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -78,104 +497,23 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="465" />
-    <option name="y" value="2" />
-    <option name="width" value="906" />
-    <option name="height" value="741" />
-  </component>
+  <component name="ProjectId" id="1SJStTIX6uHIaK8EQrkqIkJbqTL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="eBuy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyBuy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eBuy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyBuy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eBuy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyBuy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="togogo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eBuy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyBuy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="togogo" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eBuy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyBuy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="togogo" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eBuy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyBuy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="togogo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eBuy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyBuy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="togogo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eBuy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyBuy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="togogo" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eBuy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyBuy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="togogo" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eBuy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyBuy" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.gitee" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\IDEA\eBuy\web\WEB-INF\lib" />
       <recent name="E:\搜狗高速下载\腾科\EasyBuy\web" />
       <recent name="E:\搜狗高速下载\腾科\EasyBuy\web\WEB-INF" />
       <recent name="E:\搜狗高速下载\腾科\EasyBuy\src" />
@@ -249,6 +587,39 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="7271" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -277,6 +648,16 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -291,6 +672,7 @@
       <workItem from="1571275630869" duration="2141000" />
       <workItem from="1571278261718" duration="88000" />
       <workItem from="1571278386195" duration="626000" />
+      <workItem from="1571280421474" duration="8635000" />
     </task>
     <task id="LOCAL-00001" summary="表字段声明及静态页面导入">
       <created>1571209162792</created>
@@ -302,99 +684,22 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8493000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="465" y="2" width="906" height="741" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23758866" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="设计器" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49881798" weight="0.61120266" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" />
-      <window_info anchor="bottom" id="SVN Repositories" order="9" sideWeight="0.49881798" weight="0.3294893" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.501182" side_tool="true" weight="0.3294893" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="bottom" id="调试" order="16" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="调色板" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="表字段声明及静态页面导入" />
     <option name="LAST_COMMIT_MESSAGE" value="表字段声明及静态页面导入" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/togogo/dao/impl/eBuyDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/togogo/service/impl/eBuyServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Brand.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/num.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/togogo/utils/C3p0Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/togogo/servlet/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

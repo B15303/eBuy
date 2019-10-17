@@ -11,9 +11,9 @@ import java.io.IOException;
 public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println(req.getMethod());
-        System.out.println(req.getParameter("userName"));
-        System.out.println(req.getParameter("password"));
+//        System.out.println(req.getMethod());
+//        System.out.println(req.getParameter("userName"));
+//        System.out.println(req.getParameter("password"));
 
         String userName = req.getParameter("userName");
         String pwd = req.getParameter("password");
@@ -21,7 +21,6 @@ public class LoginServlet extends HttpServlet {
         if (null != userName && null != pwd){
 
         }
-
 
         //失败则跳回登录页面
     }
