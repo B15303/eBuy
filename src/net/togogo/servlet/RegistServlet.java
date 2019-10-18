@@ -2,7 +2,7 @@ package net.togogo.servlet;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import net.togogo.bean.easybuy_user;
-//import net.togogo.service.impl.eBuyServiceImpl;
+import net.togogo.service.impl.eBuyServiceImpl;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 
@@ -47,8 +47,9 @@ public class RegistServlet extends HttpServlet {
             if(null != object) {
                 System.out.println(userName);
                 for(easybuy_user easybuy_user : object) {
-                    if (easybuy_user.getUserName().equals(userName)) { //用户名存在
+                    if (easybuy_user.getLoginName().equals(userName)) { //用户名存在
                         flag = true;
+                        break;
                     } else {//用户名不存在
                         flag = false;
                     }

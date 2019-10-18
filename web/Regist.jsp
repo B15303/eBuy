@@ -41,8 +41,12 @@
                     dataType:'text',  //数据类型
                     data:'userName='+this.value,  //传递到后台的参数
                     success:function (datas) {  //接受的返回值
-                        if(datas == 'true') { alert("用户名已存在") }
-                        else { alert("用户名可用") }
+                        if(datas == 'true') {
+                            $("[name='msg']").html("×用户名已存在");
+                        }
+                        else {
+                            $("[name='msg']").html("√用户名可用");
+                        }
                     },
                     error:function () {
                         alert("ajax请求失败")
@@ -90,7 +94,7 @@
                   </tr>
                   <tr height="50">
                     <td align="right"><font color="#ff4e00">*</font>&nbsp;用户名 &nbsp;</td>
-                    <td><input type="text" name="userName" value="" class="l_user" /></td>
+                    <td><input type="text" name="userName" value="" class="l_user" /><div name="msg"></div></td>
                   </tr>
                   <tr height="50">
                     <td align="right"><font color="#ff4e00">*</font>&nbsp;密码 &nbsp;</td>
