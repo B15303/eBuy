@@ -2,7 +2,7 @@ package net.togogo.servlet;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import net.togogo.bean.easybuy_user;
-import net.togogo.service.impl.eBuyServiceImpl;
+//import net.togogo.service.impl.eBuyServiceImpl;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 
