@@ -24,11 +24,7 @@ public class RegistServlet extends HttpServlet {
         System.out.println("拦截");
         //获取用户注册信息
         String userName = req.getParameter("userName");
-        String password = req.getParameter("password");
-        String passwordAgain = req.getParameter("passwordAgain");
-        String mail = req.getParameter("mail");
-        String phone = req.getParameter("phone");
-        String member = req.getParameter("member");
+
         String id = req.getParameter("id");
         String test = req.getParameter("test");
 

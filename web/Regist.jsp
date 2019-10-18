@@ -57,6 +57,100 @@
 
     </script>
 
+    <script type="text/javascript">
+
+        $(function () {
+            $("[name='member']").blur(function () {
+
+                $.ajax({
+                    url:'member',  //请求的地址
+                    type:'post',  //请求的方式
+                    dataType:'text',  //数据类型
+                    data:'member='+this.value,  //传递到后台的参数
+                    success:function (datas) {  //接受的返回值
+                        if(datas == 'true') {
+                            $("[name='msg6']").html("√");
+                        }
+                        else {
+                            $("[name='msg6']").html("会员不存在");
+                        }
+                    },
+                    error:function () {
+                        alert("ajax请求失败")
+                    }
+                })
+            })
+        })
+
+    </script>
+
+    <script type="text/javascript"> //用户名正则判断
+        function checkuser() {
+            var username = $("#user").val();
+            var reg = /^[a-zA-Z]([a-zA-Z0-9]{2,14})$/;
+            if (reg.test(username)){
+                $("[name='msg1']").html("");
+                return true;
+            }else {
+                $("[name='msg1']").html("格式错误");
+                return false;
+            }
+        }
+    </script>
+
+    <script type="text/javascript"> //密码正则判断
+    function checkpwd() {
+        var pwd = $("#pwd").val();
+        var reg = /^[a-zA-Z]([a-zA-Z0-9]{7,14})$/;
+        if (reg.test(pwd)){
+            $("[name='msg2']").html("√");
+            return true;
+        }else {
+            $("[name='msg2']").html("格式错误");
+            return false;
+        }
+    }
+
+    function checkpwdAg() {   //确认密码
+        var pwdag = $("#pwdag").val();
+        if ($("#pwd").val() == pwdag){
+            $("[name='msg3']").html("√");
+            return true;
+        }else {
+            $("[name='msg3']").html("两次密码不一致");
+            return false;
+        }
+    }
+    </script>
+
+    <script type="text/javascript"> //邮箱正则判断
+    function checkemail() {
+        var email = $("#email").val();
+        var reg = /^\w[-\w.+]*@([A-Za-z0-9][-A-Za-z0-9]+\.)+[A-Za-z]{2,14}$/;
+        if (reg.test(email)){
+            $("[name='msg4']").html("√");
+            return true;
+        }else {
+            $("[name='msg4']").html("格式错误");
+            return false;
+        }
+    }
+    </script>
+
+    <script type="text/javascript"> //手机号正则判断
+    function checkphone() {
+        var phone = $("#pho").val();
+        var reg = /^(13|14|15|17|18)[0-9]{9}$/;
+        if (reg.test(phone)){
+            $("[name='msg5']").html("√");
+            return true;
+        }else {
+            $("[name='msg5']").html("格式错误");
+            return false;
+        }
+    }
+    </script>
+
 <title>尤洪</title>
 </head>
 <body>  
@@ -94,31 +188,53 @@
                   </tr>
                   <tr height="50">
                     <td align="right"><font color="#ff4e00">*</font>&nbsp;用户名 &nbsp;</td>
-                    <td><input type="text" name="userName" value="" class="l_user" /><div name="msg"></div></td>
+                    <td>
+                        <input type="text" name="userName" id="user" value="" placeholder="以英文字母开头，字母和数字组合3-15位" class="l_user" onblur="checkuser()" />
+                        <div name="msg"></div>
+                        <div name="msg1"></div>
+                    </td>
                   </tr>
                   <tr height="50">
                     <td align="right"><font color="#ff4e00">*</font>&nbsp;密码 &nbsp;</td>
-                    <td><input type="password" name="password" value="" class="l_pwd" /></td>
+                    <td>
+                        <input type="password" name="password" id="pwd" value="" class="l_pwd" onblur="checkpwd()"/>
+                        <div name="msg2"></div>
+                    </td>
                   </tr>
                   <tr height="50">
                     <td align="right"><font color="#ff4e00">*</font>&nbsp;确认密码 &nbsp;</td>
-                    <td><input type="password" name="passwordAgain" value="" class="l_pwd" /></td>
+                    <td>
+                        <input type="password" name="passwordAgain" id="pwdag" value="" class="l_pwd" onblur="checkpwdAg()" />
+                        <div name="msg3"></div>
+                    </td>
                   </tr>
                   <tr height="50">
                     <td align="right"><font color="#ff4e00">*</font>&nbsp;邮箱 &nbsp;</td>
-                    <td><input type="text" name="mail" value="" class="l_email" /></td>
+                    <td>
+                        <input type="text" name="mail" id="email" value="" class="l_email" onblur="checkemail()" />
+                        <div name="msg4"></div>
+                    </td>
                   </tr>
                   <tr height="50">
                     <td align="right"><font color="#ff4e00">*</font>&nbsp;手机 &nbsp;</td>
-                    <td><input type="text" name="phone" value="" class="l_tel" /></td>
+                    <td>
+                        <input type="text" name="phone" id="pho" value="" class="l_tel" onblur="checkphone()" />
+                        <div name="msg5"></div>
+                    </td>
                   </tr>
                   <tr height="50">
                     <td align="right">邀请人会员名 &nbsp;</td>
-                    <td><input type="text" name="member" value="" class="l_mem" /></td>
+                    <td>
+                        <input type="text" name="member" value="" class="l_mem" onblur="checkmember()" />
+                        <div name="msg6"></div>
+                    </td>
                   </tr>
                   <tr height="50">
                     <td align="right">邀请人ID号 &nbsp;</td>
-                    <td><input type="text" name="id" value="" class="l_num" /></td>
+                    <td>
+                        <input type="text" name="id" value="" class="l_num" onblur="checkmemberid()" />
+                        <div name="msg7"></div>
+                    </td>
                   </tr>
                   <tr height="50">
                     <td align="right"> <font color="#ff4e00">*</font>&nbsp;验证码 &nbsp;</td>
